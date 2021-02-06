@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css\styles.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+
+<body class="light-theme">
+  <img src="images\bg-desktop-light.jpg" class="background-img-light">
+  <img src="images\icon-moon.svg" id="moon-img">
+  <h1 class="title">TODO</h1>
+  <div class="item-entry">
+    <input type="text" id="listInput" placeholder="Enter an item">
+    <span onClick="newListItem()" class="add-button">Add</span>
+  </div>
+
+    <ul id="item-list">
+      <li class="checked">Excercise</li>
+      <li>Buy groceries</li>
+      <li>Read a book</li>
+    </ul>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

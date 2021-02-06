@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+input{
+  width: 85.5%;
+  padding-right: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+ul {
+  position: absolute;
+  background-color: white;
+  border-radius:10px;
+  border:1px solid #DDD;
+  margin:10px;
+  width:31%;;
+  left: 33%;
+  top: 40%;
+}
+
+ul li {
+    cursor: pointer;
+    color: black;
+    padding: 12px 8px 12px 8px;
+    list-style-type: none;
+}
+
+ul li:not(:last-child) {
+    border-bottom:1px solid #DDD;
+}
+
+ul li:hover {
+  background: #f6f6f6;
+  border-radius: 5px;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.add-button {
+  position:sticky;
+  margin-left: -51px;
+  padding: 8px;
+  width: 10%;
+  background: white;
+  color: #555;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-button:hover{
+  background-color: #f6f6f6;
+}
+
+.background-img-light{
+  position: relative;
+  min-width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  font-size: 3.5rem;
+}
+
+.item-entry{
+  position: absolute;
+  width: 35%;
+  top: 25%;
+  left: 35%;
+
+}
+
+.close {
+  float:right;
+  right: 0;
+  top: 0;
+  padding: 2px 16px 12px 16px;
+}
+
+.close:hover {
+  color: grey;
+
+}
+
+
+
+#moon-img {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+}
